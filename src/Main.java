@@ -30,9 +30,9 @@ public class Main {
         float firstNumber = 27.12f;
         long secondNumber = 987678965549L;
         double thirdNumber = 2.786;
-        short fourthNumber = 569;
+        char fourthNumber = 569;
         short fifthNumber = -159;
-        short sixthNumber = 27897;
+        int sixthNumber = 27897;
         byte seventhNumber = 67;
         }
         public static void task3() {
@@ -48,7 +48,8 @@ public class Main {
         public static void task4() {
         System.out.println("Задача 4");
         byte bottlesForTwoMinutes = 16;
-        int bottlesForMinute = bottlesForTwoMinutes / 2;
+        byte productivity = 2;
+        int bottlesForMinute = bottlesForTwoMinutes / productivity;
         int bottlesForTwentyMinutes = bottlesForMinute * 20;
         System.out.println("За 20 минут машина произвела " + bottlesForTwentyMinutes + " штук бутылок");
         int minutesInDay = 60 * 24;
